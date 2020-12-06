@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Assignment Solution for Module 4</title>
+  <script>
+    var names = []; // DO NOT REMOVE
+    var results = [];
+  </script>
+  <script src="SpeakHello.js"></script>
+  <script src="SpeakGoodBye.js"></script>
+  <script src="script.js"></script>
+</head>
+<body>
+  <h1>Assignment Solution for Module 4</h1>
+  <div>
+  	<h2>For your convenience, the rusults will also be shown here:</h2>
+  	<div id="results"></div>
+  </div>
+  <script type="text/javascript">
+  	var resultLine;
+  	for (result in results) {
+  		resultLine = document.createElement('p');
+  		resultLine.innerText = results[result];
+  		document.getElementById('results').appendChild(resultLine);
+  	}
+  </script>
+</body>
+</html>
