@@ -32,15 +32,16 @@ body {
 	border-bottom: 0;
 }
 #chicken, #beef, #sushi {
-	padding: 0 10px;
+	padding: 10px;
 }
 h3 {
 	font-weight: bold;
 }
-section {
+.section-content {
 	background-color: lightblue;
 	margin: 10px auto;
 	border-radius: 4px;
+	padding: 10px;
 }
 /*Desktop*/
 @media (min-width: 1200px) {
